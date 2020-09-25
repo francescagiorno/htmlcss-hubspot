@@ -1,0 +1,197 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ .container{
+}
+
+.primo{
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+
+.secondo{
+  margin-top: 30px;
+  margin-left: 350px;
+}
+
+button{
+ background-color: rgb(224, 97, 65);
+
+}
+
+ .row::after{
+   content: "";
+   display: "table";
+   clear: both;
+ }
+
+ .col{
+   float: left;
+ }
+
+ .col-50{
+   width: 50%;
+ }
+
+ hr{
+   color: red;
+ }
+  /*classi elementi senza contenuto*/
+  .h-80{
+    height: 80px;
+  }
+
+.row .col{
+  border: 1px solid black;
+}
+
+.col-big{
+  height: 450px;
+  width: 650px;
+  margin-left: 90px;
+}
+.font{
+  font-family: sans-serif;
+ margin-top: 40px;
+}
+
+.titolo{
+margin-top: 90px;
+}
+
+.button{
+  margin-top: 25px;
+}
+.par{
+  margin-top: 25px;
+}
+
+.cont{
+height: 550px;
+width: 100%;
+border: 1px solid black;
+}
+/*seconda riga*/
+.cont-1{
+  height: 300px;
+  width: 70%;
+  border: 1px solid black;
+  margin-left: 150px;
+}
+
+.titolo-2{
+  margin-top: 100px;
+  margin-left: 280px;
+}
+.para{
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 150px;
+}
+/*terza riga*/
+
+.cont-2{
+  height: 300px;
+  width: 70%;
+  border: 1px solid black;
+  margin-left: 150px;
+}
+
+.titolo-3{
+  margin-top: 100px;
+  margin-left: 280px;
+}
+
+.para-2{
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 265px;
+}
+
+
+ .clearfix::after{
+   content: "";
+   display: table;
+   clear: both;
+ }
+.columns{
+  float:left;
+
+}
+
+.col-1{
+  border: 1px solid black;
+  height: 450px;
+  width: 250px;
+}
+
+.col-2{
+  border: 1px solid black;
+  height: 450px;
+  width: 250px;
+
+}
+.col-3{
+  border: 1px solid black;
+  height: 450px;
+  width:250px;
+}
+ .conte{
+   height: 500px;
+   width: 100%;
+   border: 1px solid black;
+ }
+
+ .riga{
+   height: 250px;
+   width: 800px;
+   border: 1px solid black;
+ }
+
+ .row-2::after{
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .colonne{
+   float: left;
+ }
+ .col-4, .col-5{
+   border: 1px solid black;
+   height: 450px;
+   width: 300px;
+ }
+
+.contenitore{
+  height: 500px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.row-3::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colon{
+  float: left;
+}
+.col-6, .col-7, .col-8, .col-9{
+  border: 1px solid black;
+  height: 450px;
+  width: 300px;
+}
+
+
+.line-2{
+  height: 100px;
+  width: 250px;
+  border: 1px solid black;
+  margin-top: 50px;
+}
