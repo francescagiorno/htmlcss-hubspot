@@ -53,6 +53,7 @@ button{
   height: 450px;
   width: 650px;
   margin-left: 90px;
+
 }
 .font{
   font-family: sans-serif;
@@ -96,22 +97,52 @@ border: 1px solid black;
 
 .cont-2{
   height: 300px;
-  width: 70%;
+  width: 65%;
   border: 1px solid black;
   margin-left: 150px;
 }
 
+.line::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pilastro{
+  float: left;
+}
+
+.col-little{
+height: 300px;
+width: 25%;
+border: 1px solid black;
+}
+
+.big-col{
+  height: 250px;
+  width: 65%;
+  border: 1px solid black;
+}
+
 .titolo-3{
-  margin-top: 100px;
-  margin-left: 280px;
+position: relative;
+left: 25px;
+top: 60px;
 }
 
 .para-2{
-  text-align: center;
-  margin-top: 25px;
-  margin-left: 265px;
+  position: relative;
+  left: 25px;
+  top: 80px;
 }
 
+.titoletto{
+  position: relative;
+  left: 25px;
+  top: 90px;
+}
+
+/*tre colonne*/
 
  .clearfix::after{
    content: "";
@@ -128,6 +159,44 @@ border: 1px solid black;
   height: 450px;
   width: 250px;
 }
+
+.pseudo-col-1{
+  border: 1px solid black;
+  height:200px;
+  width: 250px;
+}
+ .titolo-4{
+   text-align: center;
+ }
+
+ .sezione{
+   text-align: center;
+   position: relative;
+   top: 90px;
+ }
+
+.pseudo-col-2{
+  border: 1px solid black;
+  height: 80px;
+  width: 230px;
+}
+
+#hr{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.pseudo-col-3{
+  border: 1px solid black;
+  height: 170px;
+  width: 250px;
+}
+
+.titoletto-2{
+  text-align: center;
+
+}
+
 
 .col-2{
   border: 1px solid black;
