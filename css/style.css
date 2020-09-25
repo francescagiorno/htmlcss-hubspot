@@ -370,8 +370,14 @@ tr{
 }
 
 
-
-
+.row-100::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.r{
+  float: left;
+}
 
  .riga{
    height: 250px;
@@ -381,7 +387,29 @@ tr{
    left: 250px;
  }
 
- .row-2::after{
+.riga-2{
+  border: 1px solid black;
+  height: 250px;
+  width: 300px;
+}
+
+.center, .center-1{
+  text-align: center;
+
+}
+
+ .center{
+   position: relative;
+   top: 25px;
+ }
+.center-1{
+  position: relative;
+  top: 90px;
+  list-style-type: none
+
+}
+
+.row-2::after{
    content: "";
    display: table;
    clear: both;
@@ -393,8 +421,21 @@ tr{
  .col-4, .col-5{
    border: 1px solid black;
    height: 450px;
-   width: 300px;
+   width:500px;
  }
+ .colonna-4{
+   border: 1px solid black;
+   width:450px;
+   height:150px
+  }
+  .tlt{
+    text-align: center;
+  }
+.colonna-4a{
+  border: 1px solid black;
+  height: 170px;
+  width: 450px;
+}
 
 .contenitore{
   height: 500px;
@@ -411,13 +452,30 @@ tr{
 .colon{
   float: left;
 }
-.col-6, .col-7, .col-8, .col-9{
-  border: 1px solid black;
-  height: 450px;
-  width: 300px;
+
+.h1-colore{
+  height: 80px;
+  width: 150px;
+  border:1px solid black;
+}
+.colors{
+  color: green;
 }
 
-
+.lista-100{
+  border: 1px solid black;
+  height: 300px;
+  width: 200px;
+  position: relative;
+  left: 35px;
+}
+.lista-101{
+  border: 1px solid black;
+  height: 300px;
+  width: 200px;
+  position: relative;
+  left: 35px;
+}
 .line-2{
   height: 100px;
   width: 250px;
