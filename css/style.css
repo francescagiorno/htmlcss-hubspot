@@ -194,9 +194,17 @@ top: 60px;
 
 .titoletto-2{
   text-align: center;
+  position: relative;
+  top: 10px;
 
 }
 
+.first-list{
+
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
 
 .col-2{
   border: 1px solid black;
@@ -204,11 +212,114 @@ top: 60px;
   width: 250px;
 
 }
+.pseudo-col-4{
+  border: 1px solid black;
+  height:200px;
+  width: 250px;
+}
+ .titolo-4{
+   text-align: center;
+ }
+
+ .sezione{
+   text-align: center;
+   position: relative;
+   top: 90px;
+ }
+
+.pseudo-col-2{
+  border: 1px solid black;
+  height: 80px;
+  width: 230px;
+}
+
+#hr{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.pseudo-col-3{
+  border: 1px solid black;
+  height: 170px;
+  width: 250px;
+}
+
+.titoletto-2{
+  text-align: center;
+  position: relative;
+  top: 10px;
+
+}
+
+.first-list{
+
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+
+
+
+
+
+
+
+
 .col-3{
   border: 1px solid black;
   height: 450px;
   width:250px;
 }
+
+.pseudo-col-4{
+  border: 1px solid black;
+  height:200px;
+  width: 250px;
+}
+
+.titolo-4{
+  text-align: center;
+}
+
+.sezione{
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
+
+.pseudo-col-2{
+ border: 1px solid black;
+ height: 80px;
+ width: 230px;
+}
+
+#hr{
+ margin-top: 50px;
+ margin-left: 10px;
+}
+
+.pseudo-col-3{
+  border: 1px solid black;
+  height: 170px;
+  width: 250px;
+}
+
+.titoletto-2{
+  text-align: center;
+  position: relative;
+  top: 10px;
+
+}
+
+.first-list{
+
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+
  .conte{
    height: 500px;
    width: 100%;
