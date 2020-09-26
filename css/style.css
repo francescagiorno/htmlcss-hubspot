@@ -46,7 +46,7 @@ button{
   }
 
 .row .col{
-  border: 1px solid black;
+
 }
 
 .col-big{
@@ -74,13 +74,13 @@ margin-top: 90px;
 .cont{
 height: 550px;
 width: 100%;
-border: 1px solid black;
+
 }
 /*seconda riga*/
 .cont-1{
   height: 300px;
   width: 70%;
-  border: 1px solid black;
+
   margin-left: 150px;
 }
 
@@ -98,7 +98,7 @@ border: 1px solid black;
 .cont-2{
   height: 300px;
   width: 65%;
-  border: 1px solid black;
+
   margin-left: 150px;
 }
 
@@ -115,13 +115,13 @@ border: 1px solid black;
 .col-little{
 height: 300px;
 width: 25%;
-border: 1px solid black;
+
 }
 
 .big-col{
   height: 250px;
   width: 65%;
-  border: 1px solid black;
+
 }
 
 .titolo-3{
@@ -155,13 +155,13 @@ top: 60px;
 }
 
 .col-1{
-  border: 1px solid black;
+
   height: 450px;
   width: 250px;
 }
 
 .pseudo-col-1{
-  border: 1px solid black;
+
   height:200px;
   width: 250px;
 }
@@ -176,7 +176,8 @@ top: 60px;
  }
 
 .pseudo-col-2{
-  border: 1px solid black;
+
+
   height: 80px;
   width: 230px;
 }
@@ -187,7 +188,7 @@ top: 60px;
 }
 
 .pseudo-col-3{
-  border: 1px solid black;
+
   height: 170px;
   width: 250px;
 }
@@ -207,13 +208,13 @@ top: 60px;
 }
 
 .col-2{
-  border: 1px solid black;
+
   height: 450px;
   width: 250px;
 
 }
 .pseudo-col-4{
-  border: 1px solid black;
+
   height:200px;
   width: 250px;
 }
@@ -228,7 +229,7 @@ top: 60px;
  }
 
 .pseudo-col-2{
-  border: 1px solid black;
+
   height: 80px;
   width: 230px;
 }
@@ -239,7 +240,7 @@ top: 60px;
 }
 
 .pseudo-col-3{
-  border: 1px solid black;
+
   height: 170px;
   width: 250px;
 }
@@ -267,13 +268,13 @@ top: 60px;
 
 
 .col-3{
-  border: 1px solid black;
+
   height: 450px;
   width:250px;
 }
 
 .pseudo-col-4{
-  border: 1px solid black;
+
   height:200px;
   width: 250px;
 }
@@ -289,7 +290,7 @@ top: 60px;
 }
 
 .pseudo-col-2{
- border: 1px solid black;
+
  height: 80px;
  width: 230px;
 }
@@ -300,7 +301,7 @@ top: 60px;
 }
 
 .pseudo-col-3{
-  border: 1px solid black;
+
   height: 170px;
   width: 250px;
 }
@@ -324,11 +325,11 @@ top: 60px;
  .conte{
    height: 500px;
    width: 100%;
-   border: 1px solid black;
+
    background-color: rgb(22, 202, 247)
  }
  .tlt{
-   border: 1px solid black;
+
 height: 90px;
 width: 1000px;
 position: relative;
@@ -353,7 +354,7 @@ left: 200px;
  }
 
 .tab{
-  border: 1px solid black;
+
   height: 300px;
   width: 1000px;
   position: relative;
@@ -361,7 +362,7 @@ left: 200px;
 }
 
 .tabella{
-  border: 1px solid black;
+
   height: 250px;
   width: 1000px;
 }
@@ -382,13 +383,13 @@ tr{
  .riga{
    height: 250px;
    width: 800px;
-   border: 1px solid black;
+
    position: relative;
    left: 250px;
  }
 
 .riga-2{
-  border: 1px solid black;
+
   height: 250px;
   width: 300px;
 }
@@ -419,12 +420,12 @@ tr{
    float: left;
  }
  .col-4, .col-5{
-   border: 1px solid black;
+
    height: 450px;
    width:500px;
  }
  .colonna-4{
-   border: 1px solid black;
+
    width:450px;
    height:150px
   }
@@ -432,7 +433,7 @@ tr{
     text-align: center;
   }
 .colonna-4a{
-  border: 1px solid black;
+
   height: 170px;
   width: 450px;
 }
@@ -440,7 +441,8 @@ tr{
 .contenitore{
   height: 500px;
   width: 100%;
-  border: 1px solid black;
+
+  background-color: rgb(34, 58, 64)
 }
 
 .row-3::after{
@@ -453,28 +455,30 @@ tr{
   float: left;
 }
 
-.h1-colore{
-  height: 80px;
-  width: 150px;
-  border:1px solid black;
-}
-.colors{
-  color: green;
+.lista-100, .lista-101, .lista-102, .lista-103{
+
+  height: 350px;
+  width: 300px;
+  position:relative;
+  top:20px;
+  left:35px;
 }
 
-.lista-100{
-  border: 1px solid black;
-  height: 300px;
-  width: 200px;
-  position: relative;
-  left: 35px;
+.color-h3{
+
+  height: 25px;
+  width: 300px;
+  color: white;
 }
-.lista-101{
-  border: 1px solid black;
-  height: 300px;
-  width: 200px;
-  position: relative;
-  left: 35px;
+
+.paragrafo-100{
+
+  height: 325px;
+  width: 300px;
+ color: white;
+}
+
+
 }
 .line-2{
   height: 100px;
